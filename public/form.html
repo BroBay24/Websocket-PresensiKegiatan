@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Presensi Kegiatan Kampus</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Presensi Kegiatan Kampus</h1>
+      <p class="subtitle">Silakan isi data kehadiran Anda setelah memindai QR code.</p>
+
+      <form id="presensi-form" autocomplete="off">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required>
+
+        <label for="nim">NIM</label>
+        <input type="text" id="nim" name="nim" placeholder="Nomor Induk Mahasiswa" required>
+
+        <label for="jurusan">Jurusan</label>
+        <input type="text" id="jurusan" name="jurusan" placeholder="Program Studi" required>
+
+        <label for="angkatan">Angkatan</label>
+        <input type="number" id="angkatan" name="angkatan" placeholder="Contoh: 2022" required>
+
+        <button type="submit" id="submit-btn">Kirim Presensi</button>
+      </form>
+
+      <p id="status-message" class="status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script src="/js/form.js"></script>
+</body>
+</html>

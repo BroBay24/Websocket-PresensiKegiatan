@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Presensi Realtime</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>Dashboard Presensi</h1>
+      <p class="subtitle">Data peserta hadir (Realtime)</p>
+    </div>
+    <div class="actions">
+      <div class="total-card">
+        <span>Total Hadir</span>
+        <strong id="total-hadir">0</strong>
+      </div>
+      <button id="export-btn" class="export-btn">Export Excel</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama</th>
+              <th>NIM</th>
+              <th>Jurusan</th>
+              <th>Angkatan</th>
+              <th>Waktu</th>
+            </tr>
+          </thead>
+          <tbody id="tabel-body">
+            <tr>
+              <td colspan="6" class="placeholder">Memuat data...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>
