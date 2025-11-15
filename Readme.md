@@ -56,12 +56,17 @@ Server melakukan validasi NIM duplikat sebelum INSERT; bila duplikat, server men
 
 ## Cuplikan Tampilan / Screenshot
 - Tambahkan screenshot ke folder `public/screenshots/` dan sisipkan di bawah:
-  [alt text](image.png)
-  [alt text](image-1.png)
+     Tampilan Dashboard Peserta
+     <img width="1045" height="775" alt="image" src="https://github.com/user-attachments/assets/a171531e-54f0-446a-9594-1e1409f0ae49" />
+
+     Tampilan Dashboard Admin
+     <img width="1880" height="572" alt="image" src="https://github.com/user-attachments/assets/65a9574a-2d79-465f-8af7-993fd68fd689" />
+
 
 ## Troubleshooting singkat
 - Koneksi DB gagal: periksa cred di `.env`, pastikan MySQL berjalan dan skema telah diimport.
 - WebSocket tidak terhubung: cek alamat ws:// dan port, pastikan server berjalan.
 - Excel export: akses endpoint export (mis. /export) di dashboard atau panggil REST sesuai dokumentasi handler.
+
 
 
