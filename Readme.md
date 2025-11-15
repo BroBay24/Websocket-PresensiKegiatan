@@ -1,5 +1,3 @@
-# README4 — Petunjuk Singkat & Demo Realtime
-
 ## Nama kelompok & Nim
 christian B. Ferdinand / 233406006
 Laurensius Ryan Antony / 233401014
@@ -65,4 +63,5 @@ Server melakukan validasi NIM duplikat sebelum INSERT; bila duplikat, server men
 - Koneksi DB gagal: periksa cred di `.env`, pastikan MySQL berjalan dan skema telah diimport.
 - WebSocket tidak terhubung: cek alamat ws:// dan port, pastikan server berjalan.
 - Excel export: akses endpoint export (mis. /export) di dashboard atau panggil REST sesuai dokumentasi handler.
+
 
