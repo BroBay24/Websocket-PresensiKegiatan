@@ -1,8 +1,8 @@
 # README4 — Petunjuk Singkat & Demo Realtime
 
-## Nama & Nim
+## Nama kelompok & Nim
 christian B. Ferdinand / 233406006
-Laurensius Ryan Antony / 
+Laurensius Ryan Antony / 233401014
 
 ## Deskripsi Singkat
 Aplikasi "Sistem Presensi Kegiatan Kampus Berbasis QR Code dan WebSocket Realtime" adalah aplikasi untuk mencatat kehadiran peserta acara kampus. Peserta mengisi form (Nama, NIM, Jurusan, Angkatan) lewat halaman yang diakses dari QR code. Data dikirim via WebSocket ke backend (Gin + Gorilla WebSocket + GORM) lalu disimpan di MySQL dan dibroadcast ke dashboard admin secara realtime. Admin dapat juga mengekspor data ke Excel (.xlsx).
@@ -58,10 +58,11 @@ Server melakukan validasi NIM duplikat sebelum INSERT; bila duplikat, server men
 
 ## Cuplikan Tampilan / Screenshot
 - Tambahkan screenshot ke folder `public/screenshots/` dan sisipkan di bawah:
-  ![Form Peserta]![alt text](image.png)
-  ![Dashboard Realtime] ![alt text](image-1.png)
+  [alt text](image.png)
+  [alt text](image-1.png)
 
 ## Troubleshooting singkat
 - Koneksi DB gagal: periksa cred di `.env`, pastikan MySQL berjalan dan skema telah diimport.
 - WebSocket tidak terhubung: cek alamat ws:// dan port, pastikan server berjalan.
 - Excel export: akses endpoint export (mis. /export) di dashboard atau panggil REST sesuai dokumentasi handler.
+
