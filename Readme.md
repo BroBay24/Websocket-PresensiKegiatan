@@ -55,7 +55,7 @@ Server melakukan validasi NIM duplikat sebelum INSERT; bila duplikat, server men
 4. Dashboard JS menerima pesan, render tabel baru & update counter total tanpa reload.
 
 ## Cuplikan Tampilan / Screenshot
-- Tambahkan screenshot ke folder `public/screenshots/` dan sisipkan di bawah:
+- 
      Tampilan Dashboard Peserta
      <img width="1045" height="775" alt="image" src="https://github.com/user-attachments/assets/a171531e-54f0-446a-9594-1e1409f0ae49" />
 
@@ -67,6 +67,7 @@ Server melakukan validasi NIM duplikat sebelum INSERT; bila duplikat, server men
 - Koneksi DB gagal: periksa cred di `.env`, pastikan MySQL berjalan dan skema telah diimport.
 - WebSocket tidak terhubung: cek alamat ws:// dan port, pastikan server berjalan.
 - Excel export: akses endpoint export (mis. /export) di dashboard atau panggil REST sesuai dokumentasi handler.
+
 
 
 
